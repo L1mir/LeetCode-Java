@@ -1,7 +1,7 @@
 package Easy;
 
 public class ReverseLinkedList {
-    public ListNode reversreLinkedList(ListNode head) {
+    public ListNode reverseLinkedList(ListNode head) {
         ListNode reverse = null, cur = head;
 
         while (cur != null) {
