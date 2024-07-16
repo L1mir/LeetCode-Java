@@ -17,11 +17,4 @@ public class RemoveOneElementToMakeTheArrayStrictlyIncreasing {
         }
         return count <= 1;
     }
-
-    public static void main(String[] args) {
-        int[] nums = {1,2,10,5,7};
-        int[] nums2 = {2,3,1,2};
-        int[] nums3 = {3, 2, 1};
-        System.out.println(canBeIncreasing(nums));
-    }
 }
