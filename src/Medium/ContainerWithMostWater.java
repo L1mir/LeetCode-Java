@@ -1,7 +1,7 @@
 package Medium;
 
 public class ContainerWithMostWater {
-    public int main(int[] height) {
+    public int maxArea(int[] height) {
         int max = 0;
         int left = 0;
         int right = height.length - 1;

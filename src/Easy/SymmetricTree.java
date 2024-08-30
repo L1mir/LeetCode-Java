@@ -1,7 +1,5 @@
 package Easy;
 
-import com.sun.source.tree.Tree;
-
 public class SymmetricTree {
     public boolean isSymmetric(TreeNode root) {
         if (root == null) return true;
